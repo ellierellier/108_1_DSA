@@ -93,6 +93,8 @@ I'm 汶穗。Here is my weekly learning notes. :)
 ### []()
 ###### [🔗CONTENTS](#content)
 
+---
+
 ## Object Oriented Programming
 > why I'm learning this: 寫class一直遇到錯誤，所以來學更多Object Oriented Programming  
 > [教材: The Python Bible™ | Everything You Need to Program in Python](https://www.udemy.com/course/the-python-bible/) 
@@ -221,6 +223,7 @@ print(coin1)
 `class inheritance and polymorphism`
 ###### [🔗CONTENTS](#content)
 
+---
 ### Time Complexity & Space Complexity
 > Why we need to know time complexity and space complexity: 因為我們希望程式可以高效地幫助我們解決問題，而時間和空間複雜度是一個衡量效能程式的指標。
 
@@ -243,6 +246,7 @@ def sayhi():
 #### Space Complexity
 1. def: 程式碼執行所占用的記憶體量，通常以變數量來計算。
 
+---
 ## References
 1. [Day5：演算法｜如何衡量程式的效率？——論時間複雜度Time Complexity](https://ithelp.ithome.com.tw/articles/10203082)
 2. [初學者學演算法｜從時間複雜度認識常見演算法（一)](https://medium.com/appworks-school/%E5%88%9D%E5%AD%B8%E8%80%85%E5%AD%B8%E6%BC%94%E7%AE%97%E6%B3%95-%E5%BE%9E%E6%99%82%E9%96%93%E8%A4%87%E9%9B%9C%E5%BA%A6%E8%AA%8D%E8%AD%98%E5%B8%B8%E8%A6%8B%E6%BC%94%E7%AE%97%E6%B3%95-%E4%B8%80-b46fece65ba5)
