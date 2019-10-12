@@ -216,7 +216,7 @@ print(coin2.color)
 1. 任何方法的第一個參數都一定有self，也就是實體本身(也可以定義其他的名字來替代實體，但一般人大都使用self)
 
 #### Example 4
-```
+```python
 class ntd1:
     def __init__(self,rare=False): #
         if rare:
@@ -244,9 +244,8 @@ print(coin1)
 ---
 ### What if we want to create all the other objects? 
 > class `inheritance` and `polymorphism` can help us solve this problem. (繼承與多型)
+> 使用`繼承inheritance`可以幫助我們讓子類別輕鬆地複製原類別定義的屬性和方法而不用重新寫一次
 
-1. 使用`繼承inheritance`可以幫助我們讓子類別輕鬆地複製原類別定義的屬性和方法而不用重新寫一次
-2. 使用可變參數`*args`和`**kwargs`可幫助繼承有效率地被使用。
 #### Example 1 
 ```python
 import random
@@ -255,7 +254,7 @@ class coin: #創建一個主類別
 	def __init__(self, rare= False, clean=True, Heads= True, **kwargs): #除了傳入預設參數外，也用`**kwargs`傳入多個不一樣的參數並打包成字典輸出
 
 		for key,value in kwargs.items(): #對於多個不特定參數
-			setattr(self,key,value)
+			setattr(self,key,value) 
 
 		self.is_rare = rare
 		self.is_clean = clean
@@ -295,8 +294,15 @@ class onedollar(coin):
 		'diameter': 20.0, #mm
 		'mass': 3.8
 		}
-	super().__init__(**data)
+	super().__init__(**data) 
 ```
+藉由這個例子可以了解:
+1. `super().__init__` : 用於呼叫主類別init的function。
+    - `super`表示的就是主類別
+    - `*`或`**`在python內有打包(pack)和取出(unpack)的用途，如`**data`此處的`**`意思是pack，把onedollar定義的data字典打包成一個參數傳入主類別的init內。(加上主類別有定義`**kwargs`因此可以傳入未知數量的參數)。`*`用於tuple而`**`用於dictionary。
+    > 更多可以參考[Packing and Unpacking Arguments in Python](https://www.geeksforgeeks.org/packing-and-unpacking-arguments-in-python/)
+2. 使用可變參數`*args`和`**kwargs`可幫助繼承有效率地被使用。
+3. `setattr(self,key,value)`的loop意同於個別設置 `self.key = value`，在此例中就是 `self.original_value = 1.00`、`self.clean_color = 'gold'`...等。
 
 
 ###### [🔗CONTENTS](#content)
