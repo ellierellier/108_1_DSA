@@ -63,7 +63,7 @@ I'm 汶穗。Here is my weekly learning notes. :)
 3. [Linked List: Intro(簡介)](http://alrightchiu.github.io/SecondRound/linked-list-introjian-jie.html)
 4. [Linked List: 新增資料、刪除資料、反轉](http://alrightchiu.github.io/SecondRound/linked-list-xin-zeng-zi-liao-shan-chu-zi-liao-fan-zhuan.html#series)
 
-###### [🔗CONTENTS](#content)
+[🔗CONTENTS](#content)
 
 ---
 ---
@@ -94,7 +94,7 @@ I'm 汶穗。Here is my weekly learning notes. :)
 1. [CS50 2017 - Lecture 5 - Data Structures](https://www.youtube.com/watch?v=eZQBx8YJ6Zs)
 2. [CS50.tv](http://cs50.tv/2017/fall/)
 
-###### [🔗CONTENTS](#content)
+[🔗CONTENTS](#content)
 
 ---
 ---
@@ -116,7 +116,7 @@ I'm 汶穗。Here is my weekly learning notes. :)
     > 找到缺失值和重複值可以先存在一個變數內最後一起回傳  
 
 ### [setMatch code](https://github.com/okpersist/108_1_DSA/blob/master/week4/SetMismatch.py)
-###### [🔗CONTENTS](#content)
+[🔗CONTENTS](#content)
 
 ---
 ## Insertion Sort
@@ -127,7 +127,7 @@ I'm 汶穗。Here is my weekly learning notes. :)
 ### [作業流程圖](https://github.com/okpersist/108_1_DSA/blob/master/week4/quicksort.svg)
 
 ### []()
-###### [🔗CONTENTS](#content)
+[🔗CONTENTS](#content)
 
 ---
 ## Object Oriented Programming
@@ -254,7 +254,7 @@ print(coin1)
 1. `解構子Destructor` 的定義方式是 'def __del__():'
 2. `解構子Destructor`的呼叫方式是輸入 `del 變數名`
 
-###### [🔗CONTENTS](#content)
+[🔗CONTENTS](#content)
 ---
 ### What if we want to create all the other objects? 
 > class `inheritance` and `polymorphism` can help us solve this problem. (繼承與多型)
@@ -338,7 +338,7 @@ class fivedollar(coin):
 1. 多型：覆寫母類別已經定義的方法，意即同一個名字的function有多種不同型態，此時只要在子類別的`__init__()`定義即可。
 
 
-###### [🔗CONTENTS](#content)
+[🔗CONTENTS](#content)
 
 ---
 ### Time Complexity & Space Complexity
@@ -373,4 +373,12 @@ def sayhi():
 3. [時間複雜度wiki](https://zh.wikipedia.org/wiki/%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6)  
 4. [`*args` 和 `**kwargs` 是什麼？一次搞懂它們!](https://skylinelimit.blogspot.com/2018/04/python-args-kwargs.html)
 
-###### [🔗CONTENTS](#content)
+[🔗CONTENTS](#content)
+
+---
+# Week6
+## Spyder debug mode
+> 用debug mode除錯可以加速開發效率
+
+## quicksort - recursive pseudocode
+
