@@ -381,3 +381,9 @@ def sayhi():
 	> 用debug mode除錯可以加速開發效率
 - quicksort - recursive pseudocode
 - `eval`: 把字串形式的function集合併執行的方法
+
+## Heap Sort
+### 建立Heap
+- 想法
+
+
