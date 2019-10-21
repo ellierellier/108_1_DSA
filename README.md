@@ -3,7 +3,7 @@ I'm 汶穗。Here is my weekly learning notes. :)
   * My [Learning check😀](https://hackmd.io/PFMjkciiRYuTuaYk77Be8Q?both)(Other related topics also put there.)
   * My [CS50 notes🖋](https://github.com/okpersist/CS50/tree/master/2013fall)
 
-#[Week 6](#week6)
+# [Week 6](#week6)
 
 # Content
 - [week 2](#week-2)
