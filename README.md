@@ -424,5 +424,6 @@ def sayhi():
 3. [堆排序維基百科](https://reurl.cc/XXmDxg)
 4. [Comparison Sort: Heap Sort(堆積排序法)](http://alrightchiu.github.io/SecondRound/comparison-sort-heap-sortdui-ji-pai-xu-fa.html)
 
-
+## 練習中
+1. [學習歷程(尚未整理)](https://nbviewer.jupyter.org/github/okpersist/108_1_DSA/blob/master/week6/Heapsort_04113020.ipynb)
 [🔗](#108_1_data-structure-and-algorithm)
