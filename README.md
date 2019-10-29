@@ -36,8 +36,6 @@ I'm 汶穗。Here is my weekly learning notes. :)
      - [Make a heap sort algorithm!](#make-a-heap-sort-algorithm)
   - [Reference](#reference)
 
-    
-
 # week 2
  > Topic: Design a linked list
 
@@ -407,10 +405,10 @@ def sayhi():
         -- [name=Jonathan Rasmusson / Former Spotify Engineer, The Agile Samurai]
         - 以此概念我們區分**二元搜尋樹**和**二元堆積**的不同。**二元搜尋樹**指的是限定不論有無同分支，凡上面階層的節點值必定大於下面之節點；**二元堆積**則無此限制。也可以[看其他人的解釋](https://cs.stackexchange.com/questions/27860/whats-the-difference-between-a-binary-search-tree-and-a-binary-heap)。
 
-## When do we need Heap Sort？
+### When do we need Heap Sort？
 - Priority Schedule: 需要排序優先級時常用，比如作業系統或router的優先級排序，或是找最短路徑的演算法！
 
-## Strengths and Weakness of heap sort
+### Strengths and Weakness of heap sort
 - Strengths:
     1. 快：時間複雜度最快 $O(1)$，最慢也只有 $O(nlogn)$。
     2. 節省空間：你只需要一個陣列
@@ -431,13 +429,12 @@ def sayhi():
 - Extract-down：全部比完後，最大值`maxi`會在最上面，把最後一個元素`last`跟最大值交換，並且對被換到頂端的值`last`進行heapify，把第二大的值換到最上面，而且讓`last`可以一路往下比大小放入正確的位置，確保分支在交換後可以保持由上而下由大而小的順序。
 - Insert-Up：如果需要插入，把值插入最後一個，再一路Heapify-up跟主節點比大小，遇到比自己小的就交換位置，直到無法交換停止。
 
-## Reference
+### Reference
 1. [排序之堆積排序法(Heap Sort)](http://marklin-blog.logdown.com/posts/1910116)
 2. [Data Structures and Algorithms Bootcamp](https://www.udemy.com/course/data-structures-and-algorithms-bootcamp/)
 3. [堆排序維基百科](https://reurl.cc/XXmDxg)
 4. [Comparison Sort: Heap Sort(堆積排序法)](http://alrightchiu.github.io/SecondRound/comparison-sort-heap-sortdui-ji-pai-xu-fa.html)
 5. [spyder編輯器](http://epaper.gotop.com.tw/PDFSample/ACL052031.pdf)
 6. [Spyder调试python函数](http://www.ishenping.com/ArtInfo/2121767.html)
-
 
 [🔗](#108_1_data-structure-and-algorithm)
