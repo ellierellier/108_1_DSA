@@ -437,14 +437,27 @@ def sayhi():
 5. [spyder編輯器](http://epaper.gotop.com.tw/PDFSample/ACL052031.pdf)
 6. [Spyder调试python函数](http://www.ishenping.com/ArtInfo/2121767.html)
 
+---
 ## Merge Sort
 ### What is the merge sort?
+- 定義：先分割list至最小單位，進行兩兩元素排序，再不斷合併為原本長度的list的過程
+![](https://i.imgur.com/k4NCFtP.png)
+-- [name=Jonathan Rasmusson / Former Spotify Engineer, The Agile Samurai]
+- MergeSort的排序會歷經三個階段：分割、排序、合併
+    - 分割: 每次以`len(list)//2`的方式分割列表
+    - 排序: 兩兩單位元素比大小後排序儲存
+    - 合併: 合併後重複上述步驟
+- $n(1/2)^x =1$ -> 可推得時間複雜度 $O(nlogn)$
+
 ### Strengths and Weakness of the merge sort
 ### Make a merge sort algorithm!
 ### Reference
+1. [初學者學演算法｜從時間複雜度認識常見演算法（一）](https://medium.com/appworks-school/%E5%88%9D%E5%AD%B8%E8%80%85%E5%AD%B8%E6%BC%94%E7%AE%97%E6%B3%95-%E5%BE%9E%E6%99%82%E9%96%93%E8%A4%87%E9%9B%9C%E5%BA%A6%E8%AA%8D%E8%AD%98%E5%B8%B8%E8%A6%8B%E6%BC%94%E7%AE%97%E6%B3%95-%E4%B8%80-b46fece65ba5)
+2. [Comparison Sort: Merge Sort(合併排序法)](http://alrightchiu.github.io/SecondRound/comparison-sort-merge-sorthe-bing-pai-xu-fa.html)
+3. [合併排序-維基百科](https://zh.wikipedia.org/wiki/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F)
 
+## Heap sort v.s Merge sort
 ## 如何讀懂別人的程式?
 > 寫作業用debug mode研究別的人code時候常常遇到不解的程式邏輯，或者自己寫的時候常遇到難解的語法問題，可能問題太低級助教們也希望我可以自己多想想QQ，所以做了功課筆記在這！TIAN JU TZ JU JE! 🙋🏽
-
 
 [🔗](#108_1_data-structure-and-algorithm)
