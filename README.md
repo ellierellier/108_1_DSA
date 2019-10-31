@@ -450,6 +450,13 @@ def sayhi():
 - $n(1/2)^x =1$ -> 可推得時間複雜度 $O(nlogn)$
 
 ### Strengths and Weakness of the merge sort
+- Strengths:
+    1. 快：時間複雜度最快與最慢都只需 $O(nlogn)$。
+    2. 穩定：相較於Heap，不同的狀況中數列的相對位置不會被改變
+- Weakness:
+    1. 某些情況下比quick sort慢
+    2. 某些情況下所需的空間比heap sort多
+  
 ### Make a merge sort algorithm!
 ### Reference
 1. [初學者學演算法｜從時間複雜度認識常見演算法（一）](https://medium.com/appworks-school/%E5%88%9D%E5%AD%B8%E8%80%85%E5%AD%B8%E6%BC%94%E7%AE%97%E6%B3%95-%E5%BE%9E%E6%99%82%E9%96%93%E8%A4%87%E9%9B%9C%E5%BA%A6%E8%AA%8D%E8%AD%98%E5%B8%B8%E8%A6%8B%E6%BC%94%E7%AE%97%E6%B3%95-%E4%B8%80-b46fece65ba5)
