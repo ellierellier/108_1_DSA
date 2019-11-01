@@ -12,13 +12,19 @@ class Node:
     self.left = None
     self.right = None
   
+  def is_left(self):
+    return self.left if self.left != None
+
+  def is_right(self):
+    return self.right if self.right != None
+
   def replace_left(self, new_node):
-    self.left. = 
+    if self.is_left():
+      
 
   def add_left(self, node):
     if self.left == None:
       self.left = node
     elif:
       self.replace_left(node)
-# class BinaryTree:
 ```
