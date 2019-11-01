@@ -21,5 +21,4 @@ class Node:
     elif:
       self.replace_left(node)
 # class BinaryTree:
-  
 ```
