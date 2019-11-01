@@ -24,7 +24,11 @@ I'm 汶穗。Here is my weekly learning notes. :)
   - [Merge Sort](#merge-sort)
   - [Heap sort v.s Merge sort](#heap-sort-vs-merge-sort)
   - [如何讀懂別人的code?](#%e5%a6%82%e4%bd%95%e8%ae%80%e6%87%82%e5%88%a5%e4%ba%ba%e7%9a%84code)
-
+- [Week8](#week8)
+  - [Linked Structure for Binary Tree](#linked-structure-for-binary-tree)
+  - [想法](#ideas)
+  - [練習](#practice)
+  
 # week 2
  > Topic: Design a linked list
 
@@ -566,7 +570,7 @@ if __name__ == "__main__":
 ---
 # Week8
 ## Linked Structure for Binary Tree
-## 想法
+## ideas
 - 先建立節點，節點的屬性有:`index`, `left`, `right`, `val`
 - 節點可以執行的動作: `count_len`算長度(也可以視為 `find_height` ), `add_left` or `add_right`新增左右節點, `insert`在指定位置插入節點, `del`刪除節點, `replace`覆蓋節點原本的值
   
