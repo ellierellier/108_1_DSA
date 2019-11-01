@@ -551,5 +551,36 @@ if __name__ == "__main__":
 - [寫碼容易，讀碼難](https://www.inside.com.tw/article/4818-rework)
 - [一個平庸工程師的自白](https://www.inside.com.tw/article/4690-i-am-a-mediocre-programmer)
 
+---
+# Week8
+## Linked Structure for Binary Tree
+## 想法
+- 先建立節點，節點的屬性有:`index`, `left`, `right`, `val`
+- 節點可以執行的動作: `count_len`算長度(也可以視為 `find_height` ), `add_left` or `add_right`新增左右節點, `insert`在指定位置插入節點, `del`刪除節點, `replace`覆蓋節點原本的值
+  
+## Practice
+```python
+class Node:
+  def __init__(self, val):
+    self.val = val
+    self.left = None
+    self.right = None
+  
+  def is_left(self):
+    return self.left if self.left != None
 
+  def is_right(self):
+    return self.right if self.right != None
+
+  def replace(self, node):
+    
+
+
+  def add_left(self, node):
+    if self.left == None:
+      self.left = node
+    elif:
+      self.replace(node)
+# class BinaryTree:
+```
 [🔗](#108_1_data-structure-and-algorithm)
