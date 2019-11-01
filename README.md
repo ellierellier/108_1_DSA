@@ -13,39 +13,17 @@ I'm 汶穗。Here is my weekly learning notes. :)
   - [reference](#reference-1)
 - [week 4](#week-4)
   - [setmatch](#setmatch)
-    - [ideas](#ideas)
-    - [setMatch code](#setmatch-code)
   - [Insertion Sort](#insertion-sort)
   - [QuickSort](#quicksort)
     - [What is quicksort?](#what-is-quicksort)
     - [作業code](#%e4%bd%9c%e6%a5%adcode)
     - [作業流程圖](#%e4%bd%9c%e6%a5%ad%e6%b5%81%e7%a8%8b%e5%9c%96)
   - [Object Oriented Programming](#object-oriented-programming)
-    - [What is class?](#what-is-class)
-    - [How to change states of object by a line of code?](#how-to-change-states-of-object-by-a-line-of-code)
-    - [What if we want to create all the other objects?](#what-if-we-want-to-create-all-the-other-objects)
-    - [Time Complexity & Space Complexity](#time-complexity--space-complexity)
-      - [Time Complexity](#time-complexity)
-      - [Space Complexity](#space-complexity)
-  - [References](#references)
 - [Week6](#week6)
   - [Heap Sort](#heap-sort)
-    - [What is a Heap?](#what-is-a-heap)
-    - [When do we need Heap Sort？](#when-do-we-need-heap-sort)
-    - [Strengths and Weakness of heap sort](#strengths-and-weakness-of-heap-sort)
-    - [Make a heap sort algorithm!](#make-a-heap-sort-algorithm)
-    - [Reference](#reference)
   - [Merge Sort](#merge-sort)
-    - [What is the merge sort?](#what-is-the-merge-sort)
-    - [Strengths and Weakness of the merge sort](#strengths-and-weakness-of-the-merge-sort)
-    - [Make a merge sort algorithm!](#make-a-merge-sort-algorithm)
-    - [Reference](#reference-1)
   - [Heap sort v.s Merge sort](#heap-sort-vs-merge-sort)
   - [如何讀懂別人的code?](#%e5%a6%82%e4%bd%95%e8%ae%80%e6%87%82%e5%88%a5%e4%ba%ba%e7%9a%84code)
-    - [為什麼我們需要嘗試讀別人的code?](#%e7%82%ba%e4%bb%80%e9%ba%bc%e6%88%91%e5%80%91%e9%9c%80%e8%a6%81%e5%98%97%e8%a9%a6%e8%ae%80%e5%88%a5%e4%ba%ba%e7%9a%84code)
-    - [讀懂別人code的技巧?](#%e8%ae%80%e6%87%82%e5%88%a5%e4%ba%bacode%e7%9a%84%e6%8a%80%e5%b7%a7)
-    - [Reference](#reference-2)
-  
 
 # week 2
  > Topic: Design a linked list
@@ -112,6 +90,23 @@ I'm 汶穗。Here is my weekly learning notes. :)
 ---
 ---
 # week 4
+- [week 4](#week-4)
+  - [setmatch](#setmatch)
+    - [ideas](#ideas)
+    - [setMatch code](#setmatch-code)
+  - [Insertion Sort](#insertion-sort)
+  - [QuickSort](#quicksort)
+    - [What is quicksort?](#what-is-quicksort)
+    - [作業code](#%e4%bd%9c%e6%a5%adcode)
+    - [作業流程圖](#%e4%bd%9c%e6%a5%ad%e6%b5%81%e7%a8%8b%e5%9c%96)
+  - [Object Oriented Programming](#object-oriented-programming)
+    - [What is class?](#what-is-class)
+    - [How to change states of object by a line of code?](#how-to-change-states-of-object-by-a-line-of-code)
+    - [What if we want to create all the other objects?](#what-if-we-want-to-create-all-the-other-objects)
+    - [Time Complexity & Space Complexity](#time-complexity--space-complexity)
+      - [Time Complexity](#time-complexity)
+      - [Space Complexity](#space-complexity)
+  - [References](#references)
 ## setmatch
 ### ideas
 * 下面例對應的index [0,1,2,3,4,5,6]    [0,1,2,3,4,5,6]
@@ -390,6 +385,23 @@ def sayhi():
 
 ---
 # Week6
+- [Week6](#week6)
+  - [Heap Sort](#heap-sort)
+    - [What is a Heap?](#what-is-a-heap)
+    - [When do we need Heap Sort？](#when-do-we-need-heap-sort)
+    - [Strengths and Weakness of heap sort](#strengths-and-weakness-of-heap-sort)
+    - [Make a heap sort algorithm!](#make-a-heap-sort-algorithm)
+    - [Reference](#reference)
+  - [Merge Sort](#merge-sort)
+    - [What is the merge sort?](#what-is-the-merge-sort)
+    - [Strengths and Weakness of the merge sort](#strengths-and-weakness-of-the-merge-sort)
+    - [Make a merge sort algorithm!](#make-a-merge-sort-algorithm)
+    - [Reference](#reference-1)
+  - [Heap sort v.s Merge sort](#heap-sort-vs-merge-sort)
+  - [如何讀懂別人的code?](#%e5%a6%82%e4%bd%95%e8%ae%80%e6%87%82%e5%88%a5%e4%ba%ba%e7%9a%84code)
+    - [為什麼我們需要嘗試讀別人的code?](#%e7%82%ba%e4%bb%80%e9%ba%bc%e6%88%91%e5%80%91%e9%9c%80%e8%a6%81%e5%98%97%e8%a9%a6%e8%ae%80%e5%88%a5%e4%ba%ba%e7%9a%84code)
+    - [讀懂別人code的技巧?](#%e8%ae%80%e6%87%82%e5%88%a5%e4%ba%bacode%e7%9a%84%e6%8a%80%e5%b7%a7)
+    - [Reference](#reference-2)
 - Spyder debug mode
 	- 用debug mode除錯可以加速開發效率
 	- 功能可分四大區塊，如下圖，可以在`View`的`Panes`內設定
