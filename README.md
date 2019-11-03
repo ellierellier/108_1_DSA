@@ -9,8 +9,8 @@ I'm 汶穗。Here is my weekly learning notes. :)
 WK | TOPIC | 🔗
 -- | :---: | --
 4 | Quicksort | [Notes](#what-is-quicksort)/[HW code](#%e4%bd%9c%e6%a5%adcode)/[流程圖](#%e4%bd%9c%e6%a5%ad%e6%b5%81%e7%a8%8b%e5%9c%96)
-6 | Heapsort  | [Notes](#heap-sort)/
-6 | Mergesort | [Notes](#merge-sort)/[HW code](https://nbviewer.jupyter.org/github/okpersist/108_1_DSA/blob/master/week6/Mergesort_04113020.ipynb)
+<font color=#41D3BD> 6 </font> | Heapsort  | [Notes](#heap-sort)/
+<font color=#41D3BD> 6 </font>  | Mergesort | [Notes](#merge-sort)/[HW code](https://nbviewer.jupyter.org/github/okpersist/108_1_DSA/blob/master/week6/Mergesort_04113020.ipynb)
 
 > Table inspired by [偉傑](https://github.com/sefx5ever/Week1_DSA.git)
 
