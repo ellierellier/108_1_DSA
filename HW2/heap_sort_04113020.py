@@ -1,5 +1,5 @@
 # 原創程式碼
-nums = [1, 4, 2, 3.6, -1, 0, 25, -34, 8, 9, 1, 0]
+# nums = [1, 4, 2, 3.6, -1, 0, 25, -34, 8, 9, 1, 0] 這是原本自己測試用的
 result = []
 size = len(nums)
 
@@ -39,5 +39,6 @@ class Solution(object):
         ans = ans[::-1]
         return ans
 
-test = Solution()
-test.heap_sort(nums)
+# test = Solution() ####原本自己測試的
+# test.heap_sort(nums)
+List[int] = Solution().heap_sort(nums)
