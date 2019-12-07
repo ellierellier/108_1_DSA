@@ -11,7 +11,7 @@ WK | TOPIC | 🔗
 4 | Quicksort | [Notes](#what-is-quicksort)/[HW code](#%e4%bd%9c%e6%a5%adcode)/[流程圖](#%e4%bd%9c%e6%a5%ad%e6%b5%81%e7%a8%8b%e5%9c%96)
 6 | Heapsort | [Notes](#heap-sort)/[HW code](https://nbviewer.jupyter.org/github/okpersist/108_1_DSA/blob/master/HW2/Heapsort_04113020_learning.ipynb)/[流程圖](https://github.com/okpersist/108_1_DSA/blob/master/week6/heapsort_flow_chart.md)
 6 | Mergesort | [Notes](#merge-sort)/[HW code](https://nbviewer.jupyter.org/github/okpersist/108_1_DSA/blob/master/HW2/Mergesort_04113020_learning.ipynb)/[流程圖](https://github.com/okpersist/108_1_DSA/blob/master/week6/mergesort_flow_chart.md)
-9 | Binary Search Tree |  [Notes](#binary-search-tree)/[HW code](https://github.com/okpersist/108_1_DSA/blob/master/HW3/binary_search_tree_04113020.py)/[學習歷程&圖](https://nbviewer.jupyter.org/github/okpersist/108_1_DSA/blob/master/HW3/binary_search_tree_learning_04113020.ipynb)
+9 | Binary Search Tree |  [Notes](#binary-search-tree)/[HW code](https://github.com/okpersist/108_1_DSA/blob/master/HW3/binary_search_tree_04113020.py)/[學習歷程](https://nbviewer.jupyter.org/github/okpersist/108_1_DSA/blob/master/HW3/binary_search_tree_learning_04113020.ipynb)/[圖](https://github.com/okpersist/108_1_DSA/blob/master/week9/BST_flowchart.jpg)
 11 | Hash Table | [Notes](#hash-table)/[HW code](https://github.com/okpersist/108_1_DSA/blob/master/HW4/hash_table_04113020.py)/[學習歷程](https://github.com/okpersist/108_1_DSA/blob/master/HW4/hash_table_04113020_learning.md)/[圖](https://github.com/okpersist/108_1_DSA/blob/master/week11/hash_table_flowchart.jpg)
 
 # Content
