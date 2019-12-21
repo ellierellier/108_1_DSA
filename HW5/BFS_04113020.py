@@ -1,6 +1,5 @@
 # Author: 汶穗
 # Period: 2019.12.06 - 2019.12.20
-
 from collections import defaultdict 
 
 class Graph:
@@ -12,8 +11,8 @@ class Graph:
         self.graph[u].append(v)
     
     def check_adjacency_node(self, s, queue, bfs_traversal):
-        adjacency_list = g.graph[s]
-        len_of_adja_list = len(g.graph[s])
+        adjacency_list = self.graph[s]
+        len_of_adja_list = len(self.graph[s])
         for i in adjacency_list:
             if i not in queue and i not in bfs_traversal:
                 queue.append(i)
@@ -43,7 +42,7 @@ class Graph:
         bfs_traversal = []
         queue = []
         
-        if g.graph[s] == []:
+        if self.graph[s] == []:
             return []
         
         s, queue, bfs_traversal = self.bfs_recursive(s, queue, bfs_traversal)
@@ -55,7 +54,7 @@ class Graph:
         return bfs_traversal
     
     def add_adjacency(self, num, stack):
-        adjacency_list = g.graph[num]
+        adjacency_list = self.graph[num]
         for n in adjacency_list:
             if n not in stack:
                 stack.append(n)
@@ -65,7 +64,7 @@ class Graph:
         dfs_traversal = []
         stack = []
         
-        if g.graph[s] == []:
+        if self.graph[s] == []:
             return []
 
         stack.append(s)
@@ -78,7 +77,6 @@ class Graph:
                     
         return dfs_traversal
 
-    
 # Reference
 # - [佇列(Queue)](https://seanlhlee.gitbooks.io/acosa/gitBook/Data%20Structures/Queues/queue.html)
 # - [堆疊(Stack)](https://seanlhlee.gitbooks.io/acosa/gitBook/Data%20Structures/Queues/stack.html)
