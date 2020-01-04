@@ -14,7 +14,7 @@ HW | WK | TOPIC | 🔗
 3 | 9 | Binary Search Tree |  [Notes](#binary-search-tree)/[HW code](https://github.com/okpersist/108_1_DSA/blob/master/HW3/binary_search_tree_04113020.py)/[學習歷程](https://nbviewer.jupyter.org/github/okpersist/108_1_DSA/blob/master/HW3/binary_search_tree_learning_04113020.ipynb)/[圖](https://github.com/okpersist/108_1_DSA/blob/master/week9/BST_flowchart.jpg)
 4 | 11 | Hash Table | [Notes](#hash-table)/[HW code](https://github.com/okpersist/108_1_DSA/blob/master/HW4/hash_table_04113020.py)/[學習歷程](https://github.com/okpersist/108_1_DSA/blob/master/HW4/hash_table_04113020_learning.md)/[圖](https://github.com/okpersist/108_1_DSA/blob/master/week11/hash_table_flowchart.jpg)
 5 | 13 | Breadth Frist Search & Depth Frist Search | [Notes](#week-13)/[HW code](https://github.com/okpersist/108_1_DSA/blob/master/HW5/BFS_04113020.py)/[學習歷程](https://github.com/okpersist/108_1_DSA/blob/master/HW5/BFS_DFS_04113020_learning.md)/[圖](https://github.com/okpersist/108_1_DSA/blob/master/week13/BFS%20%26%20DFS_flowchart.jpg)
-6 | 15 | Minimum Spanning Tree & Shortest Path | [Notes](#week-1)/[HW code](https://github.com/okpersist/108_1_DSA/blob/master/HW6/Dijkstra_04113020.py)/[學習歷程](https://github.com/okpersist/108_1_DSA/blob/master/HW6/Dijkstra_04113020_learning.md)/[圖](https://github.com/okpersist/108_1_DSA/tree/master/week15)
+6 | 15 | Minimum Spanning Tree & Shortest Path | [Notes](#week-15)/[HW code](https://github.com/okpersist/108_1_DSA/blob/master/HW6/Dijkstra_04113020.py)/[學習歷程](https://github.com/okpersist/108_1_DSA/blob/master/HW6/Dijkstra_04113020_learning.md)/[圖](https://github.com/okpersist/108_1_DSA/tree/master/week15)
 
 # Content
 > 這裡紀錄每周上課的內容
