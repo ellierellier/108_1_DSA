@@ -1,7 +1,7 @@
 # CS50 學習筆記
 
 # Video
-- [x] 2013fall / week5
+- [x] [2013fall / week5](https://www.youtube.com/watch?v=IEuvKVjw2oM)
 
 ---
 # 190927 Fri
