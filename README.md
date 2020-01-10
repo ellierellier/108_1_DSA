@@ -1,18 +1,18 @@
 # 108_1_Data Structure and Algorithm
-我是汶穗，此Repository紀錄我修讀108年第1學期東吳巨資之資料結構與演算法課程的每週學習歷程。
-授課老師：蔡芸琤老師｜課堂助教：賴建郡／司福銘助教
+我是汶穗，此Repository紀錄我修讀108年第1學期東吳巨資之資料結構與演算法課程的每週學習歷程。  
+授課老師：蔡芸琤老師｜課堂助教：賴建郡／司福銘助教  
 
-＃　Repository簡介
-  * About Me
-  * [學期心得]()
+# Repository簡介
+  * [About Me]()
+  * [<font color=#C89EC4>**學期心得**<font>](https://github.com/okpersist/108_1_DSA/blob/master/week18/%E5%AD%B8%E6%9C%9F%E5%BF%83%E5%BE%97.md)
+  * [HW🖋](#hw)
+  * [每周上課內容]
   * [每周學習速記🖋](https://hackmd.io/PFMjkciiRYuTuaYk77Be8Q?both)(Other related topics also put there.)
   * [CS50 筆記🖋](https://github.com/okpersist/108_1_DSA/tree/master/CS50)
   * [Codesignal 筆記🖋](https://github.com/okpersist/108_1_DSA/tree/master/Codesignal)
-  * [HW🖋](#hw)
+
   
 # HW
-🖋
-
 HW | WK | TOPIC | 🔗
 -- | -- | :--- | --
 1 | 4 | Quicksort | [Notes](#what-is-quicksort)/[HW code](#%e4%bd%9c%e6%a5%adcode)/[流程圖](#%e4%bd%9c%e6%a5%ad%e6%b5%81%e7%a8%8b%e5%9c%96)
