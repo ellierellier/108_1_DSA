@@ -23,7 +23,7 @@ HW | WK | TOPIC | 🔗
 6 | 15 | Minimum Spanning Tree & Shortest Path | [Notes](#week-15)/[HW code](https://github.com/okpersist/108_1_DSA/blob/master/HW6/Dijkstra_04113020.py)/[學習歷程](https://github.com/okpersist/108_1_DSA/blob/master/HW6/Dijkstra_04113020_learning.md)/[圖](https://github.com/okpersist/108_1_DSA/tree/master/week15)
 
 # Content
-> 這裡紀錄每周上課的內容
+> 這裡紀錄每周上課的內容，💡表示自己額外的學習
 - [Week 1](#week-1)
   - [上課方式與計分規則說明](#week-1)
 - [Week 2](#week-2)
@@ -68,7 +68,7 @@ HW | WK | TOPIC | 🔗
   - [Overview](#overview)
 - [Week 17](#week-17)
   - [Final Exam & blockchain sharing](#week-17)
-- Week 18: 放假~
+- [Week 18: 放假~](#week-18)
 
 ---
 ---
