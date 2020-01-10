@@ -12,7 +12,6 @@
 |almostIncreasingSequence|[code](https://github.com/okpersist/108_1_DSA/blob/master/Codesignal/Intro07_almostIncreasingSequence.py)|
 
 # Python
-![](https://i.imgur.com/iiAQQjj.png)
 > 因為是回答問題沒有code所以用V呈現
 
 |Problem|Solved|
@@ -21,3 +20,5 @@
 |Efficient Comparison|V|
 |Special Conditional|V|
 |Language Differences|V|
+
+![](https://i.imgur.com/iiAQQjj.png)
